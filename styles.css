@@ -1,0 +1,148 @@
+* {
+    background: rgb(11, 22, 47);  
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+}
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+}
+h1, h2 {
+    color: #dde4ef;
+}
+h3, p {
+    color: #8497b8;
+}
+b , a, li{
+    color: #b6bfcd;
+}
+
+h1 {
+    font-size: 500%;
+    position: fixed;
+    top: 75px;
+}
+h2 {
+    font-size: 200%;
+    position: fixed;
+    top: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: #8497b8;
+
+}
+
+section {
+    min-height: 100vh;
+    justify-content: center;
+}
+
+nav a:hover,
+nav a.active {
+    color: #b6bfcd;
+}
+
+.wrapper {
+    display: flex;
+    padding: 100px;
+}
+
+.wrapper > p {
+    display: flex;
+    flex: 1;
+    column-count: 2;
+}
+
+a.about {
+    font-size: 200%;
+    position: fixed;
+    top: 380px;
+    gap: 50px;
+    min-height: 100vh;
+}
+
+a.projects {
+    font-size: 200%;
+    position: fixed;
+    top: 450px;
+    gap: 50px;
+    min-height: 50vh;
+    
+}
+
+a.contact {
+    font-size: 200%;
+    position: fixed;
+    top: 520px;
+    gap: 50px;
+    
+}
+
+p.bio {
+    font-size: 150%;
+    position: fixed;
+    top: 270px;
+    
+}
+
+p.maintext{
+    font-size: 150%;
+    position: relative;
+    right: -700px;
+    line-height: 1.7;
+    width: 500px;
+}
+
+ul.tools{
+    display: flex;
+    position: relative;
+    right: -655px;
+    list-style: none;
+}
+
+li {
+    background-color:rgb(31, 52, 128);
+    border-radius: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+li:hover {
+    color:aqua
+}
+
+a.link1{
+    position: fixed;
+    top: 650px;
+}
+a.link2{
+    position: fixed;
+    top: 650px;
+    left: 180px;
+}
+a.link3{
+    position: fixed;
+    top: 650px;
+    left: 250px;
+}
+
+a.projectlink {
+    position: relative;
+}
+
+a:link img,
+a:visited img,
+a:hover img {
+    padding: 5px;
+    width: 50px;
+}
+
+a:link img.external,
+a:visited img.external,
+a:hover img.external {
+    padding: 0px;
+    width: 25px;
+}
